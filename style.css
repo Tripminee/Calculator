@@ -1,0 +1,133 @@
+.outer-box {
+    border: 3px solid black;
+    border-radius: 5%;
+    height: 650px;
+    width: 500px;
+}
+
+.main-box {
+    display: flex;
+    flex-direction: column;
+    height: 98%;
+    margin: 10px 3px 5px 3px;
+}
+
+.display-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+    margin: 5px 3px 5px 3px;
+    height: 30%;
+    width: 95%;
+}
+
+.process-box {
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    margin: 20px 10px 20px 10px;
+    height: 25%;
+    font-size: 15px;
+    letter-spacing: -1px ;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+.result-box {
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    justify-self: center;
+    margin: 20px 10px 20px 10px;
+    height: 30%;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+.button-box {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px 5px 10px 5px;
+    gap: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    height: 70%;
+    width: auto;
+}
+
+.first-column {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 25%;
+    width: 100%;
+    gap: 10px;
+}
+
+.second-column {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 25%;
+    width: 100%;
+    gap: 10px;
+}
+
+.third-column {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 25%;
+    width: 100%;
+    gap: 10px;
+}
+
+.fourd-column {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 25%;
+    width: 100%;
+    gap: 10px;
+}
+
+.fifth-column {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 25%;
+    width: 100%;
+    gap: 10px;
+}
+
+.equals {
+    width: 220px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 3px;
+    height: 50px;
+    width: 105px;
+    background-color: white;
+    transition: background-color 0.5s ease;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover {
+    background-color: rgba(212, 64, 0, 0.5);
+}
